@@ -1,0 +1,28 @@
+h1{
+    font-size: larger;
+    color: blue;
+    font-style: inherit;
+}
+h2{
+    font-size: large;
+    font-style: italic;
+    color: aqua;
+}
+h3{
+    font-size: larger;
+    font-style: oblique;
+    color: red;
+}
+p{
+    font-size: small;
+    line-height: 1.5;
+    color: violet;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-bottom: 5px;
+    padding: 0;
+}
