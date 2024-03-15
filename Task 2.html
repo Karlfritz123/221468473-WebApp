@@ -8,32 +8,76 @@
 <body>
     <style type="text/css">
         .background{
-            background: lightgrey;
+            background: orange;
         }
         .head{
-            background: transparent;
+            background: blue;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
         }
         .eyeball{
-            background: transparent;
-            border-color: transparent;
+            background: white;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            top: 30px;
+            left: 25px;
         }
         .pupil{
-            color: transparent;
+            color: grey;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
         }
         .break{
             color: red;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+                border-left: 50px solid #444;
+                border-bottom: 25px solid
+                transparent;
+            position: absolute;
+            top: 25px;
+            left: 75px;
         }
         .body{
             background: lightyellow;
+            border-radius: 50%;
+            width: 95px;
+            height: 140px;
         }
         .wing{
-            color: blue;
+            background-color: blue;
+            border-radius: 50%;
+            width: 140px;
+            height: 75px;
+            position: absolute;
+            top: 95px;
+            left: -85px;
         }
         .drumstick{
-            color: green;
+            background-color: green;
+            border-radius: 50%;
+            width: 5px;
+            height: 90px;
+            position: absolute;
+            left: 30px;
+            bottom: 280px;
         }
         .drumstick-right{
-            color: black;
+            background-color: green;
+            border-radius: 50%;
+            width: 5px;
+            height: 90px;
+            position: absolute;
+            left: 80px;
+            bottom: 280px;
         }
     </style>
     <div class="canvas background">
